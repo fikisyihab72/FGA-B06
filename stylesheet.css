@@ -52,6 +52,10 @@ header {
   background-color: rgba(225, 225, 225, 0.5);
 }
 
+.toggle{
+  display: none;
+}
+
 li {
     list-style: none;
 }

@@ -1,3 +1,5 @@
+/*Mobile Layout by Gusti Agung Ngurah Dwi Suryawan*/
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100,400,700,900&display=swap');
 
 @media(max-width:468px){
@@ -10,11 +12,53 @@
     body{
         font-family: 'Lato', sans-serif ;
         width: 100vw;
+        overflow-x: hidden;
     }
 
     .container{
         width: 100%;
         padding: 0;
+    }
+
+    .cont{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+
+    header{
+        background: rgba(105, 105, 105, 1);
+        margin: 0;
+        width: 100%;
+    }
+
+    .header-left{
+        margin-right: auto;
+    }
+    
+    .header-right{
+        display: none;
+    }
+
+    .toggle{
+        display: block;
+        background: #c3c3c3;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        width: 32px;
+        height: 32px;
+        padding: 5px;
+        margin-right: 10px;
+    }
+
+    .toggle span{
+        display: block;
+        width: 100%;
+        height: 2px;
+        background: #fff;
+        margin-bottom: 7px;
     }
 
     .top-wrapper{
@@ -26,8 +70,76 @@
     }
 
     
-    .top-wrapper-text h1, p, .btn{
+    .top-wrapper-text h1, p, .btn-wrapper{
         opacity: 1;
         text-align: center;
+    }
+
+    .pic-ctn{
+        display: none;
+    }
+
+    .main-wrapper{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .heading-main-wrapper {
+        margin: 20px 0;
+    }
+    
+    .btn-main {
+        padding: 6px 12px;
+        margin: 0 10px;
+        border-radius: 5px;
+        color: black;
+    }
+
+    .btn-main.sedang-diputar{
+        color: #fff;
+    }
+
+    .btn-main.akan-datang.active{
+        background: blueviolet;
+        color: #fff;
+        padding: 15px 25px;
+    }
+
+    .tengah-main-wrapper {
+        margin: 0;
+        padding: 20px 0;
+        width: 100%;
+        height: auto;
+        background-color: rgb(239, 234, 241);
+    }
+
+    .poster-main-wrapper {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .poster-item{
+        width: 100%;
+        float: none;
+        padding: 0;
+    }
+
+    .poster-item img{
+        width: 200px;
+        height: 300px;
+    }
+
+    .poster-item p{
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 10px 0 40px 0;
+    }
+
+    /*footer*/
+    .footer-copyright{
+        margin-top: 20px;
     }
 }
