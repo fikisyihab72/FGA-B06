@@ -1,7 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100,400,700,900&display=swap');
+
 @media(max-width:468px){
     *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+    }
+
+    body{
+        font-family: 'Lato', sans-serif ;
+        width: 100vw;
+    }
+
+    .container{
+        width: 100%;
+        padding: 0;
+    }
+
+    .top-wrapper{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 40px 60px;
+        width: 100%;
+    }
+
+    
+    .top-wrapper-text h1, p, .btn{
+        opacity: 1;
+        text-align: center;
     }
 }
