@@ -171,3 +171,67 @@ a {
 .fa {
   margin-right: 5px;
 }
+
+/* footer */
+
+.footer {
+ background-color: #292c2f;
+ box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+ box-sizing: border-box;
+ width: 100%;
+ text-align: left;
+ font: bold 16px sans-serif;
+ padding: 10px 50px;
+}
+ 
+.footer .footer-kiri,
+.footer .footer-tengah,
+.footer .footer-kanan {
+ display: inline-block;
+ vertical-align: top;
+}
+ 
+.footer .footer-kiri {
+ width: 40%;
+}
+ 
+.footer .footer-layout {
+ color:  #ffffff;
+ margin: 20px 0 12px;
+ padding: 0;
+}
+ 
+.footer .footer-layout a {
+ display:inline-block;
+ line-height: 1.8;
+ text-decoration: none;
+ color:  inherit;
+}
+ 
+.footer .footer-copyright {
+ color:  #92999f;
+ font-size: 15px;
+ font-weight: normal;
+ text-align: center;
+}
+ 
+.footer .footer-tengah {
+ width: 35%;
+}
+ 
+.footer .footer-kanan {
+ width: 20%;
+}
+ 
+.footer .footer-tentang {
+ line-height: 20px;
+ color:  #92999f;
+ font-size: 13px;
+ font-weight: normal;
+ margin: 0;
+}
+ 
+.footer-pic img {
+ width: 40px;
+ height: 40px;
+}
